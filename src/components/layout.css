@@ -1,0 +1,19 @@
+html,body{
+  overflow-x: hidden;
+}
+.bg-theme{
+  background: #9F86C0;
+}
+
+.cart-icon{
+  font-size: 1.5rem;
+}
+
+.hero-background{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
