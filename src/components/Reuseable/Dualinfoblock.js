@@ -15,11 +15,11 @@ export default function Dualinfoblock({heading,url,imgsrc}) {
                             </p>
                         </div>
                         <div className="col-4 col-sm-4">
-                        <div class="card bg-dark" style={{width: 18+'rem'}}>
+                        <div className="card bg-dark" style={{width: 18+'rem'}}>
                             <img src={imgsrc}  class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title text-success text-center">card Start</h5>
-                                <p class="card-text text-white">Elit amet sit aute culpa laborum nisi velit elit sint dolore.Consequat minim mollit in quis irure reprehenderit qui.</p>
+                            <div className="card-body">
+                                <h5 className="card-title text-success text-center">card Start</h5>
+                                <p className="card-text text-white">Elit amet sit aute culpa laborum nisi velit elit sint dolore.Consequat minim mollit in quis irure reprehenderit qui.</p>
                                <Link to={url} >
                                <button className="btn btn-warning btn-block">
                                    {heading}
