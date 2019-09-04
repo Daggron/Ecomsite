@@ -40,8 +40,14 @@ export default class coursecart extends Component {
                                                 {node.description.description}
                                             </small>
                                         </p>
-                                        <button className="btn btn-warning">
-                                            Buy Course
+                                        <button
+                                        data-item-id={node.id}
+                                        data-item-name={node.title}
+                                        data-item-price = {node.price}
+                                        data-item-url="https://learncodeonline.in"
+                                        data-item-image={node.iamge.fixed.src}
+                                        className="btn btn-warning snipcart-add-item">
+                                           Join Now
                                         </button>
                                     </div>
                                     </div>

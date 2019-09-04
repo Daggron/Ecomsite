@@ -4,17 +4,17 @@ import Heading from '../Reuseable/Heading'
 
 export default function Services({children, title}) {
     return (
-        <section class="bg-theme">
-            <div class="container-fluid">
+        <section className="bg-theme">
+            <div className="container-fluid">
                
                     <Heading title={title} />
                   
-                <div class="row">
-                    <div class="col col-sm-6 mx-auto">
-                     <img src={service} alt="Services" class="img" />
+                <div className="row">
+                    <div className="col col-sm-6 mx-auto">
+                     <img src={service} alt="Services" className="img" />
                     </div>
-                    <div class="col col-sm-6">
-                        <p class="lead text-center text-white my-5 py-5 font-5">
+                    <div className="col col-sm-6">
+                        <p className="lead text-center text-white my-5 py-5 font-5">
                             {children}  
                         </p>
                     </div>

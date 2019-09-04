@@ -16,7 +16,7 @@ export default function Dualinfoblock({heading,url,imgsrc}) {
                         </div>
                         <div className="col-4 col-sm-4">
                         <div className="card bg-dark" style={{width: 18+'rem'}}>
-                            <img src={imgsrc}  class="card-img-top" alt="..." />
+                            <img src={imgsrc}  className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title text-success text-center">card Start</h5>
                                 <p className="card-text text-white">Elit amet sit aute culpa laborum nisi velit elit sint dolore.Consequat minim mollit in quis irure reprehenderit qui.</p>
